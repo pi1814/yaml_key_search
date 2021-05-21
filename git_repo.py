@@ -144,7 +144,10 @@ def git(git_url):
 
     if os.path.isdir(yaml_path)==False:
         os.mkdir(yaml_path)
-        Repo.clone_from(git_url, path)
+        try:
+            Repo.clone_from(git_url, path)
+        except:
+            print("Given url may not correspond to a repository")
 
         files_in_dir = []
 
