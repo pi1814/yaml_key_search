@@ -5,4 +5,4 @@ labels:
       - ".github/.*"
   - label: "it works"
     files:
-      - ".*"
+      - "git_repo.py"
