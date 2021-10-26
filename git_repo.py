@@ -7,6 +7,7 @@ import yaml,time
 
 
 # merging documents from yaml file with multiple documents 
+# updated versions may use python multi variable search or rabin karp algo
 def document_merge(yaml_path, item):
     
     with open(os.path.join(yaml_path, item),'r',  encoding="utf8") as firstfile, open(os.path.join(yaml_path, 'search.yml'),'w',  encoding="utf8") as secondfile:
