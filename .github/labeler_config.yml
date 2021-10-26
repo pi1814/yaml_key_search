@@ -1,8 +1,8 @@
-version: 1
-labels:
-  - label: "github"
-    files:
-      - ".github/.*"
-  - label: "it works"
-    files:
-      - "git_repo.py"
+github:
+- .github/*
+
+repo:
+- '*'
+
+it works:
+- '*'
