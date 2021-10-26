@@ -9,6 +9,7 @@ import yaml,time
 # merging documents from yaml file with multiple documents 
 # updated versions may use python multi variable search or rabin karp algo
 # note to self: check google first for the queries that you have :)
+#This is test
 # --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 def document_merge(yaml_path, item):
     
