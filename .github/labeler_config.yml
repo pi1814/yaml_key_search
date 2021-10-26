@@ -1,0 +1,8 @@
+version: 1
+labels:
+  - label: "circleci"
+    files:
+      - ".circleci/.*"
+  - label: "github"
+    files:
+      - ".github/.*"
