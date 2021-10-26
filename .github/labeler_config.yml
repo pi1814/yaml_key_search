@@ -3,3 +3,6 @@ labels:
   - label: "github"
     files:
       - ".github/.*"
+  - label: "it works"
+    files:
+      - ".*"
